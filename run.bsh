@@ -1,0 +1,5 @@
+rm SharedMemory
+g++  -std=c++11 SharedMemory.cpp -o SharedMemory -lrt
+./SharedMemory
+
+
